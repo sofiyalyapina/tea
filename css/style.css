@@ -1,0 +1,51 @@
+:root {
+    --black: #000;
+    --beige: #F7F2EA;
+    --white: #fff;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 65px;
+}
+
+.nav {
+    padding-top: 57px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    width: 580px;
+    justify-content: space-between;
+}
+
+.link a {
+    color: var(--black);
+}
+
+.header-button {
+    padding-top: 57px;
+    display: flex;
+    gap: 100px;
+}
+
+.header-button__item {
+    gap: 20px;
+    display: flex;
+}
