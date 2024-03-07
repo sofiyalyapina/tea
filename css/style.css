@@ -49,3 +49,151 @@ body {
     gap: 20px;
     display: flex;
 }
+.wrapper-text {
+    padding-top: 254px;
+}
+
+.wrapper-text__title {
+    font-family: 'Cormorant', serif;
+    font-size: 60px;
+    color: var(--white);
+    width: 780px;
+    margin-top: 20px;
+}
+
+.wrapper-text__text {
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    color: var(--white);
+    width: 560px;
+    padding-bottom: 48px;
+}
+
+.quote h2 {
+    text-align: center;
+    margin: 150px auto;
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-weight: 300;
+    width: 704px;
+    font-style: italic;
+}
+
+.tea {
+    margin-bottom: 150px;
+}
+
+.title {
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.tea_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tea_card {
+    width: 208px;
+}
+
+.tea_card p {
+    font-family: 'Cormorant', serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.reviews {
+    background-color: var(--beige);
+    margin-bottom: 150px;
+}
+
+.rewiews .title {
+    padding-bottom: 60px;
+}
+
+.blockquotes {
+    padding-bottom: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.blockquote--item {
+    width: 280px;
+}
+
+.blockquote--item blockquote {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.blockquote--item cite {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.news {
+    margin-bottom: 150px;
+}
+
+.new-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.new-card {
+    display: flex;
+}
+
+
+.new-info {
+    margin-left: 20px;
+    position: relative;
+}
+
+.new-title {
+    font-size: 24px;
+    font-family: 'Cormorant', serif;
+    margin-bottom: 10px;
+}
+
+.new-text {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.new-link a {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--balck);
+    position: absolute;
+    bottom: 0;
+}
+
+.new-link img {
+    padding-top: 5px;
+    margin-left: 8px;
+}
+
+.new-button {
+    justify-content: center;
+    text-align: center;
+}
+
+.new-button a {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 12px 41px;
+    border: 1px solid var(--black);
+    color: var(--black);
+}
